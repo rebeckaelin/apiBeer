@@ -106,7 +106,7 @@ back.addEventListener("click", (): void => {
 });
 
 //rör ej
-function seeMoreInfo(data: object) {
+function seeMoreInfo(data: Beer[]): void {
   if (data[0].name) {
     beerList.innerText = "";
     let hops: string[] = [];
